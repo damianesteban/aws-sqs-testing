@@ -17,7 +17,7 @@ const body = {
 }
 
 const params = {
-    MessageBody: 'folios_updated',
+    MessageBody: JSON.stringify(body),
     QueueUrl: queueUrl
 }
 
